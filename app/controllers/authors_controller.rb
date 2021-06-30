@@ -4,4 +4,9 @@ class AuthorsController < ApplicationController
     @author = Author.find(params[:id])
   end
 
+  def index
+  end
+
+
+
 end
